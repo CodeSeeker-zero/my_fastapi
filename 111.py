@@ -12,4 +12,4 @@ async def read_user_me():
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, port=8000)
+    uvicorn.run("111:app", port=8000, reload=True)
